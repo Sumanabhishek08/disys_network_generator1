@@ -1,0 +1,9 @@
+# Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
+builders:
+  disys_network_generator:
+    target: ":disys_network_generator"
+    import: "package:disys_network_generator/disys_network_generator.dart"
+    builder_factories: ["networkGeneratorFactory"]
+    build_extensions: {".dart": [".disys_network.dart"]}
+    auto_apply: root_package
+    build_to: source
