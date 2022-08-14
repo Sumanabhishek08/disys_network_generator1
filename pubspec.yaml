@@ -30,7 +30,9 @@ dev_dependencies:
 dependency_overrides:
   # Comment before publish
   disys_network:
-    path: ../disys_network
+    git: 
+      url: https://github.com/Disys-CoE/disys_network.git
+      ref: main
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
